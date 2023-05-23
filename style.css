@@ -1,0 +1,10 @@
+h1, h2 {
+  font-family: 'roboto', 'Courier New', Courier, monospace;
+  color: #00ffff;
+  text-align: center;
+  text-decoration: none;  
+}
+
+body {
+  background-color: #000; 
+}  
