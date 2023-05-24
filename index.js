@@ -21,7 +21,7 @@ const jsSarter = edu0 => {
     return `Hi ${userName}, it's nothing.`; 
   }  
 } 
-
+ 
 console.log(jsSarter()); 
 
 
