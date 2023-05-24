@@ -24,7 +24,7 @@ function thecity () {
 }; 
 
 console.log(thecity()); 
-
+ 
 // utilisation uniquement de la scope (portée) globale
 let scopeGlobale = 'Je suis une variable globale.'; 
 function scope0 () { 
