@@ -7,7 +7,7 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
 
 // use function fleche
-const jsSarter = edu0 => { 
+const jsSarter = edu0 => {  
   // const day = 'Monday'; 
   const userName = 'Mike'; 
 
