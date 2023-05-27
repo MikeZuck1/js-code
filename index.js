@@ -25,31 +25,6 @@ const jsSarter = edu0 => {
 console.log(jsSarter()); 
 
 
-// use nrormal function 
-function adiitional () {
-  const add0 = 'hi'; 
-
-  if (add0 === 'no') {
-    return 'No'; 
-  } else if (add0 === 'hi') {
-    return 'hi'; 
-  } else {
-    return 'oups!';  
-  }
-}
-
-console.log(adiitional()); 
-
-// simple calcule 
-let a = 10; 
-let e = 20; 
-let t = 30;  
-let u = 40; 
-let o = 50; 
-let res0 = a * e * t * (u % o); 
-console.log(res0);  
-
-
 // Définir le temps de sommeil 
 const getSleepyHours = day => {
   if (day === 'monday') {
@@ -72,8 +47,6 @@ const getSleepyHours = day => {
 }
 
 console.log(getSleepyHours());  
-
-
 
 // fonction qui renvoie le nombre d'heures de repos d'une nuit donnée
 const getSleepHours = day => {
@@ -106,7 +79,13 @@ console.log(getSleepHours('tuesday'));
 
 // Pour obtenir le nombre total d'heures de sommeil
 const getActualSleepHours = () => {
-return getSleepHours('Monday') + getSleepHours('tuesday') + getSleepHours('wednesday') + getSleepHours('thursday') + getSleepHours('friday') + getSleepHours('saturday') + getSleepHours('sunday');    
+return getSleepHours('Monday') 
+  + getSleepHours('tuesday') 
+  + getSleepHours('wednesday') 
+  + getSleepHours('thursday') 
+  + getSleepHours('friday') 
+  + getSleepHours('saturday') 
+  + getSleepHours('sunday');    
 };  
 
 console.log(getActualSleepHours());  
@@ -160,7 +139,13 @@ console.log(typeof theFunc3);
 
 
 const dayWeek = () => {
-  return getWeek('lundi') + getWeek('mardi') + getWeek('mercredi') + getWeek('jeudi') + getWeek('vendredi') + getWeek('samedi') + getWeek('dimanche');  
+  return getWeek('lundi') 
+    + getWeek('mardi') 
+    + getWeek('mercredi') 
+    + getWeek('jeudi') 
+    + getWeek('vendredi')  
+    + getWeek('samedi') 
+    + getWeek('dimanche');  
 }; 
 
 console.log(dayWeek); 
